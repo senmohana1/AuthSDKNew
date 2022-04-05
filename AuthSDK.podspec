@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '13.0'
 s.name = "AuthSDK"
-s.summary = "AuthSDK lets a user select an ice cream flavor."
+s.summary = "AuthSDK to check Cutome UI"
 s.requires_arc = true
 
 # 2
-s.version = "0.1.6"
+s.version = "0.1.7"
 
 # 3
 #s.license = { :type => "MIT", :file => "LICENSE" }
