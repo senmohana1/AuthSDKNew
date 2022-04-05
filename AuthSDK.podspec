@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '14.0'
+s.ios.deployment_target = '13.0'
 s.name = "AuthSDK"
 s.summary = "AuthSDK lets a user select an ice cream flavor."
 s.requires_arc = true
@@ -25,8 +25,6 @@ s.source = { :git => "https://github.com/senmohana1/AuthSDKNew.git",
 
 # 7
 s.framework = "UIKit"
-#s.dependency 'Alamofire', '~> 4.7'
-#s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
 s.source_files = "AuthSDK/**/*.{swift}"

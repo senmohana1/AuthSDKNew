@@ -9,16 +9,9 @@ import Foundation
 import UIKit
 
 public protocol loginUIComponents {
-
     func getLoginButton() -> UIButton
-
     func getUserNameTextField() -> UITextField
-
     func getPasswordTextField() -> UITextField
-
     func getErrorLabel() -> UILabel
-
     func getForgetPasswordButton() -> UIButton
-
 }
-
