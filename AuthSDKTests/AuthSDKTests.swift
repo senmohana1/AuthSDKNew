@@ -29,5 +29,10 @@ class AuthSDKTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testAddTwoNumber() {
+        let val = 2 + 5
+        XCTAssertEqual(7, val)
+    }
 
 }
