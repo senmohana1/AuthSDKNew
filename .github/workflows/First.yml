@@ -19,9 +19,6 @@ jobs:
          destination: ${{ matrix.destination }}
       - name: Test
         run: |
-          xcodebuild test \
--project AuthSDK.xcodeproj \
--scheme AuthSDKTests \
--destination 'platform=iOS Simulator,name=iPhone 13,OS=15.2'
+          xcodebuild test -project AuthSDK.xcodeproj -scheme AuthSDKTests -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.2'
         env: 
          destination: ${{ matrix.destination }}
