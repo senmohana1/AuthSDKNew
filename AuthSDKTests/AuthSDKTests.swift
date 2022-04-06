@@ -34,5 +34,10 @@ class AuthSDKTests: XCTestCase {
         let val = 2 + 8
         XCTAssertEqual(10, val)
     }
+    
+    func testAddThreeNumber() {
+        let val = 2 + 8 + 2
+        XCTAssertEqual(10, val)
+    }
 
 }
