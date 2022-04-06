@@ -31,8 +31,8 @@ class AuthSDKTests: XCTestCase {
     }
     
     func testAddTwoNumber() {
-        let val = 2 + 5
-        XCTAssertEqual(7, val)
+        let val = 2 + 9
+        XCTAssertEqual(11, val)
     }
 
 }
