@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4B01A4EB27FB644B00D5A042 /* AuthSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 4B01A4EA27FB644B00D5A042 /* AuthSDK.docc */; };
 		4B01A4F127FB644B00D5A042 /* AuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B01A4E627FB644B00D5A042 /* AuthSDK.framework */; };
-		4B01A4F627FB644B00D5A042 /* AuthSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01A4F527FB644B00D5A042 /* AuthSDKTests.swift */; };
 		4B01A4F727FB644B00D5A042 /* AuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B01A4E927FB644B00D5A042 /* AuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B01A50127FB65FC00D5A042 /* AuthSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01A50027FB65FC00D5A042 /* AuthSDK.swift */; };
 		4B01A50327FB677B00D5A042 /* LoginInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01A50227FB677B00D5A042 /* LoginInterface.swift */; };
@@ -32,7 +31,6 @@
 		4B01A4E927FB644B00D5A042 /* AuthSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthSDK.h; sourceTree = "<group>"; };
 		4B01A4EA27FB644B00D5A042 /* AuthSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AuthSDK.docc; sourceTree = "<group>"; };
 		4B01A4F027FB644B00D5A042 /* AuthSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B01A4F527FB644B00D5A042 /* AuthSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSDKTests.swift; sourceTree = "<group>"; };
 		4B01A50027FB65FC00D5A042 /* AuthSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSDK.swift; sourceTree = "<group>"; };
 		4B01A50227FB677B00D5A042 /* LoginInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterface.swift; sourceTree = "<group>"; };
 		4B01A50427FB682600D5A042 /* DefaultLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLoginViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				4B01A4E827FB644B00D5A042 /* AuthSDK */,
-				4B01A4F427FB644B00D5A042 /* AuthSDKTests */,
 				4B01A4E727FB644B00D5A042 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +84,6 @@
 				4B01A4EA27FB644B00D5A042 /* AuthSDK.docc */,
 			);
 			path = AuthSDK;
-			sourceTree = "<group>";
-		};
-		4B01A4F427FB644B00D5A042 /* AuthSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				4B01A4F527FB644B00D5A042 /* AuthSDKTests.swift */,
-			);
-			path = AuthSDKTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,7 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B01A4F627FB644B00D5A042 /* AuthSDKTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
