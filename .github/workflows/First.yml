@@ -8,7 +8,7 @@ jobs:
     runs-on: macos-latest
     strategy:
         matrix:
-          destination: ['platform=iOS Simulator,OS=13.2.2,name=iPhone 11 Pro Max']
+          destination: ['platform=iOS Simulator,OS=15.2,name=iPhone 13']
     steps:
       - name: Checkout
         uses: actions/checkout@master
@@ -19,6 +19,6 @@ jobs:
          destination: ${{ matrix.destination }}
       - name: Test
         run: |
-          xcodebuild clean test -project AuthSDK.xcodeproj -scheme AuthSDKTests -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+          xcodebuild test -project AuthSDK.xcodeproj -scheme AuthSDKTests -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.2'
         env: 
          destination: ${{ matrix.destination }}
